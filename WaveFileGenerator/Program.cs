@@ -4,6 +4,12 @@
     {
         static void Main(string[] args)
         {
+            // create test file
+            var filename = "file.wav";
+
+
+
+
         }
     }
 }

@@ -10,7 +10,6 @@ namespace WaveFileGenerator.Model
     {
         public int Frequency;
         public int LenghtInMs;
-        public string FileName;
         public ChannelsEnum NumOfChannels;
     }
 }
