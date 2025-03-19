@@ -8,18 +8,24 @@ namespace WaveFileGenerator.Model
 {
     internal static class WaveGeneratorHelper
     {
-        const string umu = "";
-
-        public static void GenerateFile(string fileName, WaveGeneratorWriterFlags flags)
+        public static void GenerateFile(string filepath, WaveGeneratorWriterFlags flags)
         {
+            WriteHeaderSection();
+            WriteFmtSection();
+            WriteDataSection();
         }
 
-        private static void WriteHeader()
+        private static void WriteDataSection()
         {
 
         }
 
-        private static void Xd()
+        private static void WriteHeaderSection()
+        {
+
+        }
+
+        private static void WriteFmtSection()
         {
 
         }
