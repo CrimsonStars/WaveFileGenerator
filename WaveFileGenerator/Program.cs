@@ -17,7 +17,7 @@
         private static void Main(string[] args)
         {
             // create test file
-            var filename = "file.wav";
+            var filename = Resources.ConstantValues._04_DefaultFilename;
             var filepath = Path.Combine("d:", filename);
             var waveFlags = new WaveGeneratorWriterFlags()
             {

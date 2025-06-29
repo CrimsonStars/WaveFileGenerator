@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Update="Model\ConstantValues.Designer.cs">
+    <Compile Update="Resources\ConstantValues.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>ConstantValues.resx</DependentUpon>
@@ -16,14 +16,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="Model\ConstantValues.resx">
+    <EmbeddedResource Update="Resources\ConstantValues.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>ConstantValues.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Resources\" />
   </ItemGroup>
 
 </Project>
