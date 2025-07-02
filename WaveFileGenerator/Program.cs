@@ -16,8 +16,10 @@
 
         private static void Main(string[] args)
         {
+            Console.WriteLine();
+
             // create test file
-            var filename = Resources.ConstantValues._04_DefaultFilename;
+            var filename = Resources.ConstantValues.NAME005_440HzFilename;
             var filepath = Path.Combine("d:", filename);
             var waveFlags = new WaveGeneratorWriterFlags()
             {
@@ -111,7 +113,7 @@
                         byte[] data;
                         Console.WriteLine("--- DATA ---");
                         //while ((data = bs.ReadBytes(4)) != null)
-                        for (int i = 0; i < 100; i++)
+                        for (int i = 0; i < 5; i++)
                         {
                             data = bs.ReadBytes(2);
                             var res = BitConverter.ToInt16(data);

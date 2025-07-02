@@ -63,45 +63,45 @@ namespace WaveFileGenerator.Resources {
         /// <summary>
         ///   Looks up a localized string similar to RIFF.
         /// </summary>
-        internal static string _00_RiffText {
+        internal static string NAME000_RiffText {
             get {
-                return ResourceManager.GetString("00_RiffText", resourceCulture);
+                return ResourceManager.GetString("NAME000_RiffText", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to WAVE.
         /// </summary>
-        internal static string _01_WaveFormatValue {
+        internal static string NAME001_WaveFormatValue {
             get {
-                return ResourceManager.GetString("01_WaveFormatValue", resourceCulture);
+                return ResourceManager.GetString("NAME001_WaveFormatValue", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to fmt.
         /// </summary>
-        internal static string _02_FmtValue {
+        internal static string NAME002_FmtValue {
             get {
-                return ResourceManager.GetString("02_FmtValue", resourceCulture);
+                return ResourceManager.GetString("NAME002_FmtValue", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to data.
         /// </summary>
-        internal static string _03_DataValue {
+        internal static string NAME003_DataValue {
             get {
-                return ResourceManager.GetString("03_DataValue", resourceCulture);
+                return ResourceManager.GetString("NAME003_DataValue", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to file.wav.
         /// </summary>
-        internal static string _04_DefaultFilename {
+        internal static string NAME004_DefaultFilename {
             get {
-                return ResourceManager.GetString("04_DefaultFilename", resourceCulture);
+                return ResourceManager.GetString("NAME004_DefaultFilename", resourceCulture);
             }
         }
         

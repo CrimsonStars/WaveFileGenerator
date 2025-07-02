@@ -8,6 +8,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Resources\Sample_files\440hz_second.wav" />
+    <None Remove="Resources\Sample_files\Mio_Mao_la_la_la_la_la-sample.jpg" />
+    <None Remove="Resources\Sample_files\Mio_Mao_la_la_la_la_la-sample.wav" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Sample_files\440hz_second.wav" />
+    <Resource Include="Resources\Sample_files\Mio_Mao_la_la_la_la_la-sample.jpg" />
+    <Resource Include="Resources\Sample_files\Mio_Mao_la_la_la_la_la-sample.wav" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Update="Resources\ConstantValues.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>

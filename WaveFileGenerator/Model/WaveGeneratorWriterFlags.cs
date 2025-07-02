@@ -13,6 +13,10 @@
         public ChannelsEnum NumOfChannels;
         #endregion
 
+        #region WIP flags
+        public int WaveType; // saw, sine, whatever else...
+        #endregion
+
 
         // Default constructor for 440Hz mono sample.
         // Length: 1 second (1000 ms).

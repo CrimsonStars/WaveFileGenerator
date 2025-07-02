@@ -117,19 +117,19 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="03_DataValue" xml:space="preserve">
+  <data name="NAME003_DataValue" xml:space="preserve">
     <value>data</value>
   </data>
-  <data name="02_FmtValue" xml:space="preserve">
+  <data name="NAME002_FmtValue" xml:space="preserve">
     <value>fmt</value>
   </data>
-  <data name="00_RiffText" xml:space="preserve">
+  <data name="NAME000_RiffText" xml:space="preserve">
     <value>RIFF</value>
   </data>
-  <data name="01_WaveFormatValue" xml:space="preserve">
+  <data name="NAME001_WaveFormatValue" xml:space="preserve">
     <value>WAVE</value>
   </data>
-  <data name="04_DefaultFilename" xml:space="preserve">
+  <data name="NAME004_DefaultFilename" xml:space="preserve">
     <value>file.wav</value>
   </data>
   <data name="NAME005_440HzFilename" xml:space="preserve">
